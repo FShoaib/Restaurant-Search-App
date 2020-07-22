@@ -23,9 +23,9 @@ const SearchScreen = () =>{
         />
         {errorMessage?<Text>{errorMessage}</Text>:null}
         <ScrollView>
-        <Resultslist results = {results} title ="Cost Effective"  />
+        <Resultslist results = {results} title ="Cost Effective"/>
         <Resultslist results = {results} title = "Bit Pricier" />
-        <Resultslist results = {results} title = "Big Spender!" />
+        <Resultslist results = {results} title = "Big Spender!"/>
         </ScrollView>
         
     </>
